@@ -4,7 +4,7 @@ public class Program2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Question 1
+        // Question 2.15
 
         System.out.print("Enter x1: ");
         double x1 = input.nextDouble();
@@ -33,7 +33,7 @@ public class Program2 {
         double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
         System.out.printf("The area of the triangle is %.2f \n", area);
 
-        // Question 2
+        // Question 2.17
         System.out.print("Enter the temperature in Fahrenheit between -58F and 41F): ");
         double ta = input.nextDouble();
         System.out.print("Enter the wind speed in miles per hour (greater than or equal to 2 mph): ");
