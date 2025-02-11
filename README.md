@@ -8,6 +8,7 @@ This repository contains my Java programming assignments. Each folder or file re
 2. [Question 2](#question-2)
 3. [Question 3](#question-3)
 4. [Question 4](#question-4)
+5. [Question 5](#question-5)
 
 ## Question 1
 
@@ -129,3 +130,57 @@ Net Pay: $69.22
 ```
 
 Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program4_23.java) to view the code.
+
+## Question 5
+
+## 5.13 Find the largest
+
+Write a program to find the largest n such that n^3 < 12,000.
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program5_13.java) to view the code.
+
+## 5.15 Display the ASCII character table
+
+Write a program that prints the characters in the ASCII character table from ! to ~. Display ten characters per line. Characters are separated by exactly one space.
+
+```java
+The ASCII codes for ! to ~ are:
+
+! = 33
+~ = 126
+```
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program5_15.java) to view the code.
+
+## 5.21 Financial application: compare loans with various interest rates
+
+Write a program that lets the user enter the loan amount and loan period in number of years and displays the monthly and total payments for each interest rate starting from 5% to 8%, with an increment of 1/8. Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program5_21.java) to view the code.
+
+To calculate the monthly payment on a loan, we use the amortization formula, which is:
+
+```Math
+𝑀 = {{𝑃×𝑟×(1+𝑟)^𝑛} \over (1+𝑟)^𝑛−1}​
+```
+
+Here is a sample run:
+
+```java
+Loan Amount: 10000
+Number of Years: 5
+
+Interest Rate   Monthly Payment     Total Payment
+5.000%          188.71              11322.74
+5.125%          189.29              11357.13
+5.250%          189.86              11391.59
+
+...
+
+7.875%          202.17              12129.97
+8.000%          202.76              12165.84
+```
+
+## 5.27 Display leap years
+
+Write a program that displays all the leap years, ten per line, from **_101 to 2100_**, separated by exactly one space. Also display the number of leap years in this period.
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program5_27.java) to view the code.
