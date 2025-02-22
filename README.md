@@ -9,6 +9,7 @@ This repository contains my Java programming assignments. Each folder or file re
 3. [Question 3](#question-3)
 4. [Question 4](#question-4)
 5. [Question 5](#question-5)
+6. [Question 6](#question-6)
 
 ## Question 1
 
@@ -184,3 +185,102 @@ Interest Rate   Monthly Payment     Total Payment
 Write a program that displays all the leap years, ten per line, from **_101 to 2100_**, separated by exactly one space. Also display the number of leap years in this period.
 
 Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program5_27.java) to view the code.
+
+## Question 6
+
+## 6.1 Math: pentagonal numbers
+
+A pentagonal number is defined as _n(3n–1)/2_ for n = 1, 2, . . ., and so on. Therefore, the first few numbers are 1, 5, 12, 22, . . . . Write a method with the following header that returns a pentagonal number:
+
+```java
+ public static int getPentagonalNumber(int n){
+    // code here
+ }
+```
+
+Write a test program that uses this method to display the first 100 pentagonal numbers with 10 numbers on each line.
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program6_1.java) to view the code.
+
+## 6.5 Sort three numbers
+
+Write a method with the following header to display three numbers in increasing order:
+
+```java
+public static void displaySortedNumbers( double num1, double num2, double num3){
+    // code here
+}
+```
+
+Write a test program that prompts the user to enter three numbers and invokes the method to display them in increasing order.
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program6_5.java) to view the code.
+
+## 6.9 Conversions between feet and meters
+
+Write a class that contains the following two methods:
+
+-  Convert from feet to meters
+
+```java
+public static double footToMeter(double foot){
+    // code here
+}
+```
+
+The formula for the conversion is: meter = 0.305 \* foot
+
+-  Convert from meters to feet
+
+```java
+public static double meterToFoot(double meter){
+    // code here
+}
+```
+
+The formula for the conversion is: foot = 3.279 \* meter
+
+Write a test program that invokes these methods to display the following tables:
+
+```java
+Feet Meters | Meters Feet
+--------------------------
+1.0 0.305   |  20.0 65.574
+2.0 0.610   | 25.0 81.967
+.
+.
+.
+9.0 2.745   | 60.0 196.721
+10.0 3.050  | 65.0 213.11
+```
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program6_9.java) to view the code.
+
+## 6.17 Display matrix of 0s and 1s
+
+Write a method that displays an n-by-n matrix using the following header:
+
+```java
+public static void printMatrix(int n){
+    // code here
+}
+```
+
+Each element is 0 or 1, which is generated randomly. Write a test program that prompts the user to enter n and displays an n-by-n matrix. Here is a sample run:
+
+```java
+Enter n: 3
+0 1 0
+0 0 0
+1 1 1
+```
+
+```java
+Enter n: 4
+1 0 0 1
+0 1 1 0
+0 1 1 1
+1 0 1 0
+```
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program6_17.java) to view the code.
