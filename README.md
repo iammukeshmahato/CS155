@@ -10,6 +10,8 @@ This repository contains my Java programming assignments. Each folder or file re
 4. [Question 4](#question-4)
 5. [Question 5](#question-5)
 6. [Question 6](#question-6)
+7. [Question 7](#question-7)
+8. [Question 9](#question-9)
 
 ## Question 1
 
@@ -284,3 +286,38 @@ Enter n: 4
 ```
 
 Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program6_17.java) to view the code.
+
+## Question 9
+
+## 9.1 The Rectangle class
+
+Design a class named Rectangle to represent a rectangle.The class contains:
+
+-  Two double data fields named width and height
+   that specify the width and height of the rectangle. The default values are 1 for both width and height.
+
+-  A no-arg constructor that creates a default rectangle.
+
+-  A constructor that creates a rectangle with the
+   specified width and height.
+-  A method named getArea() that returns the area of this rectangle.
+-  A method named getPerimeter() that returns the perimeter.
+-  Draw the UML diagram for the class and then implement the class.
+
+Write a test program that creates two Rectangle objects
+
+-  one with width 4 and height 40 and the other with width 3.5 and height 35.9. Display the width, height, area, and perimeter of each rectangle in this order
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Rectangle.java) to view the code.
+
+
+## 9.5 The GregorianCalendar class
+
+Java API has the GregorianCalendar class in the java.util package, which you can use to obtain the year, month, and day of a date. The no-arg constructor constructs an instance for the current date, and the methods get(GregorianCalendar.YEAR), get(GregorianCalendar.MONTH), and get(GregorianCalendar.DAY_OF_MONTH) return the year, month, and day.
+
+Write a program to perform two tasks:
+
+-  Display the current year, month, and day.
+-  The GregorianCalendar class has the setTimeInMillis(long), which can be used to set a specified elapsed time since January 1, 1970. Set the value to 1234567898765L and display the year, month, and day.
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program9_5.java) to view the code.
