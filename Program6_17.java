@@ -6,10 +6,16 @@
 // 0 0 0
 // 1 1 1
 
+import java.util.Scanner;
+
 public class Program6_17 {
 
     public static void main(String[] args) {
-        printMatrix(6);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter n: ");
+        int n = sc.nextInt();
+        printMatrix(n);
+        sc.close();
     }
 
     public static void printMatrix(int n) {
