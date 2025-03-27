@@ -13,6 +13,8 @@ This repository contains my Java programming assignments. Each folder or file re
 7. [Question 7](#question-7)
 8. [Question 9](#question-9)
 9. [Question 9.7](#question-97)
+10. [Assignment 10](#assignment-10)
+
 
 ## Question 1
 
@@ -349,3 +351,75 @@ Design a class named Account that contains:
    monthlyInterestRate. monthlyInterestRate is annualInterestRate / 12. Note that annualInterestRate is a percentage, e.g., like 4.5%. You need to divide it by 100.)
 
    Write a test program that creates an Account object with an account ID of 1122, a balance of $20,000, and an annual interest rate of 4.5%. Use the withdraw method to withdraw $2,500, use the deposit method to deposit $3,000, and print the balance,
+
+## Assignment 10
+
+## 9.8 The Fan class
+
+Design a class named Fan to represent a fan. The class contains:
+
+-  Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, and 3 to denote the fan speed.
+
+-  A private int data field named speed that specifies the speed of the fan (the default is SLOW).
+
+-  A private boolean data field named on that specifies whether the fan is on (the default is false).
+
+-  A private double data field named radius that specifies the radius of the fan (the default is 5).
+
+-  A string data field named color that specifies the color of the fan (the default is blue).
+
+-  The accessor and mutator methods for all four data fields.
+
+-  A no-arg constructor that creates a default fan.
+
+-  A method named toString() that returns a string description for the fan.
+
+   -  If the fan is on, the method returns the fan speed, color, and radius in one combined string.
+   -  If the fan is not on, the method returns the fan color and radius along with the string “fan is off” in one combined string.
+
+Draw the UML diagram for the class and then implement the class.
+
+Write a test program that creates two Fan objects. Assign maximum speed, radius 10, color yellow, and turn it on to the first object. Assign medium speed, radius 5, color blue, and turn it off to the second object. Display the objects by invoking their toString method.
+
+## 11.1 The Triangle class
+
+Design a class named Triangle that extends GeometricObject. The class contains:
+
+-  Three double data fields named side1, side2, and side3 with default values 1.0 to denote three sides of the triangle.
+-  A no-arg constructor that creates a default triangle.
+-  A constructor that creates a triangle with the specified side1, side2, and side3.
+-  The accessor methods for all three data fields.
+-  A method named getArea() that returns the area of this triangle.
+-  A method named getPerimeter() that returns the perimeter of this triangle.
+-  A method named toString() that returns a string description for the triangle.
+
+   For the formula to compute the area of a triangle, see Programming Exercise 2.19.
+
+   The toString() method is implemented as follows:
+
+```java
+   return "Triangle: side1 = " + side1 + " side2 = " + side2 + " side3 = " + side3;
+```
+
+Draw the UML diagrams for the classes Triangle and GeometricObject and implement the classes.
+
+Write a test program that prompts the user to enter three sides of the triangle, a color, and a Boolean value to indicate whether the triangle is filled. The program should create a Triangle object with these sides and set the color and filled properties using the input. The program should display the area, perimeter, color, and true or false to indicate whether it is filled or not.
+
+## 11.2 The Person, Student, Employee, Faculty, and Staff classes
+
+Design a class named Person and its two subclasses named Student and Employee.
+
+-  Make Faculty and Staff subclasses of Employee.
+-  A person has a name, address, phone number, and email address.
+-  A student has a class status (freshman, sophomore, junior, or senior).
+-  Define the status as a constant. An employee has an office, salary, and date hired.
+
+-  Use the MyDate class defined in Programming Exercise 10.14 to create an object for date hired.
+
+-  A faculty member has office hours and a rank.
+
+-  A staff member has a title. Override the toString method in each class to display the class name and the person’s name.
+
+Draw the UML diagram for the classes and implement them.
+
+Write a test program that creates a Person, Student, Employee, Faculty, and Staff, and invokes their toString() methods.
