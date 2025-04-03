@@ -14,7 +14,8 @@ This repository contains my Java programming assignments. Each folder or file re
 8. [Question 9](#question-9)
 9. [Question 9.7](#question-97)
 10. [Assignment 10](#assignment-10)
-
+11. [Assignment 11](#assignment-11)
+12. [Assignment 12](#assignment-12)
 
 ## Question 1
 
@@ -423,3 +424,40 @@ Design a class named Person and its two subclasses named Student and Employee.
 Draw the UML diagram for the classes and implement them.
 
 Write a test program that creates a Person, Student, Employee, Faculty, and Staff, and invokes their toString() methods.
+
+## Assignment 11
+
+## 11.4 Maximum element in ArrayList
+
+Write the following method that returns the maximum value in an
+ArrayList of integers. The method returns null if the list is null or the list size is 0.
+
+```java
+public static Integer max(ArrayList list)
+```
+
+Write a test program that prompts the user to enter a sequence of numbers ending with 0, and invokes this method to return the largest number in the input.
+
+## 11.6 Use ArrayList
+
+Write a program that creates an ArrayList and adds a Loan object, a Date object, a string, and a Circle object to the list, and use a loop to display all the elements in the list by invoking the
+object’s toString() method.
+
+## 11.10 (Implement MyStack using inheritance)
+
+In Listing 11.10, MyStack is implemented using composition. Define a new stack class that extends ArrayList. Draw the UML diagram for the classes and then implement MyStack.
+
+Write a test program that prompts the user to enter five strings and displays them in reverse order.
+
+## Assignment 12
+## 12.1 (NumberFormatException) Listing 7.9
+Calculator.java, is a simple commandline calculator. Note
+that the program terminates if any operand is nonnumeric. 
+
+Write a program with an exception handler that deals with nonnumeric operands; then write another program without using an exception handler to achieve the same objective. Your program should display a message that informs the user of the
+wrong operand type before exiting (see Figure 12.12). FIGURE 12.12 The program performs arithmetic
+operations and detects input errors.
+
+*12.2 (InputMismatchException) Write a program that prompts the user to read two integers and
+displays their sum. Your program should prompt the user to read the number again if the input is
+incorrect
