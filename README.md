@@ -13,9 +13,9 @@ This repository contains my Java programming assignments. Each folder or file re
 7. [Question 7](#question-7)
 8. [Question 9](#question-9)
 9. [Question 9.7](#question-97)
-10. [Assignment 10](#assignment-10)
-11. [Assignment 11](#assignment-11)
-12. [Assignment 12](#assignment-12)
+10.   [Assignment 10](#assignment-10)
+11.   [Assignment 11](#assignment-11)
+12.   [Assignment 12](#assignment-12)
 
 ## Question 1
 
@@ -326,6 +326,7 @@ Write a program to perform two tasks:
 Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program9_5.java) to view the code.
 
 ## Question 9.7
+
 ## 9.7 The Account class
 
 Design a class named Account that contains:
@@ -382,6 +383,8 @@ Draw the UML diagram for the class and then implement the class.
 
 Write a test program that creates two Fan objects. Assign maximum speed, radius 10, color yellow, and turn it on to the first object. Assign medium speed, radius 5, color blue, and turn it off to the second object. Display the objects by invoking their toString method.
 
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2010/Fan.java) to view the code.
+
 ## 11.1 The Triangle class
 
 Design a class named Triangle that extends GeometricObject. The class contains:
@@ -406,6 +409,8 @@ Draw the UML diagrams for the classes Triangle and GeometricObject and implement
 
 Write a test program that prompts the user to enter three sides of the triangle, a color, and a Boolean value to indicate whether the triangle is filled. The program should create a Triangle object with these sides and set the color and filled properties using the input. The program should display the area, perimeter, color, and true or false to indicate whether it is filled or not.
 
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2010/Triangle.java) to view the code.
+
 ## 11.2 The Person, Student, Employee, Faculty, and Staff classes
 
 Design a class named Person and its two subclasses named Student and Employee.
@@ -425,6 +430,8 @@ Draw the UML diagram for the classes and implement them.
 
 Write a test program that creates a Person, Student, Employee, Faculty, and Staff, and invokes their toString() methods.
 
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2010/TestPersonHierarchy.java) to view the code.
+
 ## Assignment 11
 
 ## 11.4 Maximum element in ArrayList
@@ -438,26 +445,41 @@ public static Integer max(ArrayList list)
 
 Write a test program that prompts the user to enter a sequence of numbers ending with 0, and invokes this method to return the largest number in the input.
 
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2011/MaxArrayList.java) to view the code.
+
 ## 11.6 Use ArrayList
 
 Write a program that creates an ArrayList and adds a Loan object, a Date object, a string, and a Circle object to the list, and use a loop to display all the elements in the list by invoking the
 object’s toString() method.
 
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2011/UsingArrayList.java) to view the code.
+
 ## 11.10 (Implement MyStack using inheritance)
 
 In Listing 11.10, MyStack is implemented using composition. Define a new stack class that extends ArrayList. Draw the UML diagram for the classes and then implement MyStack.
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2011/MyStack.java) to view the code.
 
 Write a test program that prompts the user to enter five strings and displays them in reverse order.
 
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2011/TestStack.java) to view the code.
+
 ## Assignment 12
+
 ## 12.1 (NumberFormatException) Listing 7.9
+
 Calculator.java, is a simple commandline calculator. Note
-that the program terminates if any operand is nonnumeric. 
+that the program terminates if any operand is nonnumeric.
 
-Write a program with an exception handler that deals with nonnumeric operands; then write another program without using an exception handler to achieve the same objective. Your program should display a message that informs the user of the
-wrong operand type before exiting (see Figure 12.12). FIGURE 12.12 The program performs arithmetic
-operations and detects input errors.
+Write a program with an exception handler that deals with nonnumeric operands; then write another program without using an exception handler to achieve the same objective. Your program should display a message that informs the user of the wrong operand type before exiting (see Figure 12.12). FIGURE 12.12 The program performs arithmetic operations and detects input errors.
 
-*12.2 (InputMismatchException) Write a program that prompts the user to read two integers and
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2012/CalculatorWithException.java) to view the code.
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2012/CalculatorWithoutException.java) to view the code.
+
+## 12.2 (InputMismatchException)
+
+Write a program that prompts the user to read two integers and
 displays their sum. Your program should prompt the user to read the number again if the input is
 incorrect
+
+Click [here](https://github.com/iammukeshmahato/CS155/blob/main/Program%2012/SumWithRetry.java) to view the code.
